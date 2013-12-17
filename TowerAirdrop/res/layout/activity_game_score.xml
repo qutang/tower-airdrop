@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/score_board_bg" >
+
+    <TextView
+        android:id="@+id/single_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"
+        android:text="Single Round"
+        android:textColor="#235CAA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    
+    <ImageButton
+        android:id="@+id/help_image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/single_round"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/help" />
+
+    <ImageView
+        android:id="@+id/box_image"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/single_round"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/box" />
+
+    <TextView
+        android:id="@+id/single_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="115dp"
+        android:layout_toRightOf="@+id/box_image"
+        android:text="Not Available"
+        android:textColor="#235CAA"
+        android:textSize="16sp" />
+
+
+    <ImageView
+        android:id="@+id/coin_image"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/box_image"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/coin" />
+
+    <TextView
+        android:id="@+id/single_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="148dp"
+        android:layout_toRightOf="@+id/coin_image"
+        android:text="Not Available"
+        android:textColor="#235CAA"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/life_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="180dp"
+        android:text="Lifetime"
+        android:textColor="#235CAA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    
+    <ImageButton
+        android:id="@+id/help_life_image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/life_round"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/help" />
+
+    <ImageView
+        android:id="@+id/l_box_image"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/life_round"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/box" />
+
+    <TextView
+        android:id="@+id/life_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="215dp"
+        android:layout_toRightOf="@+id/box_image"
+        android:text="Not Available"
+        android:textColor="#235CAA"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/l_coin_image"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/l_box_image"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/coin" />
+
+    <TextView
+        android:id="@+id/life_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="248dp"
+        android:layout_toRightOf="@+id/coin_image"
+        android:text="Not Available"
+        android:textColor="#235CAA"
+        android:textSize="16sp" />
+
+</RelativeLayout>

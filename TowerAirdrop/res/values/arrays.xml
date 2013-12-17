@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<resources>
+   <array name="sudoku_difficulty">
+      <item>@string/sudoku_easy_label</item>
+      <item>@string/sudoku_medium_label</item>
+      <item>@string/sudoku_hard_label</item>
+   </array>
+   
+   <array name="dabble_difficulty">
+      <item>@string/dabble_easy_label</item>
+      <item>@string/dabble_medium_label</item>
+      <item>@string/dabble_hard_label</item>
+   </array>
+</resources>

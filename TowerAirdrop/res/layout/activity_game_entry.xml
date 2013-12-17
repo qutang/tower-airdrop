@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/entry_welcome">
+
+        <ImageButton
+            android:id="@+id/button_resume_tower"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+			android:layout_marginTop="70dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="50dp"
+            android:layout_width="140dp"
+            android:background="@drawable/resume" />
+
+        <ImageButton
+            android:id="@+id/button_new_tower"
+            android:layout_alignParentRight="true"
+            android:layout_height="50dp"
+            android:layout_width="140dp"
+            android:layout_below="@+id/button_resume_tower"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/start" />
+
+        <ImageButton
+            android:id="@+id/button_tower_rank"
+            android:layout_alignParentRight="true"
+            android:layout_height="50dp"
+            android:layout_width="140dp"
+            android:layout_below="@+id/button_new_tower"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/rank"/>
+        
+       <ImageButton
+            android:id="@+id/button_tower_set"
+            android:layout_alignParentRight="true"
+            android:layout_height="50dp"
+            android:layout_width="140dp"
+            android:layout_below="@+id/button_tower_rank"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/settings"/>
+       
+        <ImageButton
+            android:id="@+id/button_quit_tower"
+            android:layout_alignParentRight="true"
+            android:layout_height="50dp"
+            android:layout_width="140dp"
+            android:layout_below="@+id/button_tower_set"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/quit"/>
+
+</RelativeLayout>
