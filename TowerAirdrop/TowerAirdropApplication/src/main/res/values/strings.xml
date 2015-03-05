@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_app_name">TowerAirdrop</string>
+    <string name="main_action_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_about_title">AboutActivity</string>
+    <string name="final_music_title">Music</string>
+    <string name="final_music_summary">Play background music</string>
+    <string name="final_vibrate_title">Vibration</string>
+    <string name="final_instruction_title">Instruction</string>
+    <string name="final_vibrate_summary">Activate Vibration</string>
+    <string name="final_instruction_summary">Show Instruction</string>
+    <string name="final_settings_title">Game Settings</string>
+    <string name="final_string_label">Settings...</string>
+    <string name="final_settings_shortcut">s</string>
+    <string name="title_activity_game_score">Score Board</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">AboutActivity</string>
+</resources>

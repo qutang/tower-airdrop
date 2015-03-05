@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.mhealth.qutang.towerairdrop"
+    android:versionCode="1000"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_DATA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="edu.neu.mhealth.qutang.towerairdrop.GameApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/game_icon"
+        android:label="@string/main_app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.neu.mhealth.qutang.towerairdrop.activities.GameActivity"
+            android:label="Tower Airdrop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.mhealth.qutang.towerairdrop.activities.GameEntryActivity"
+            android:icon="@drawable/game_icon"
+            android:label="TowerAirdrop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.neu.mhealth.qutang.towerairdrop.activities.GameSettingActivity"
+            android:label="@string/final_settings_title"
+            android:theme="@style/PreferencesTheme" >
+        </activity>
+        <activity
+            android:name="edu.neu.mhealth.qutang.towerairdrop.activities.AcknowledgeActivity"
+            android:label="Acknowledge" >
+        </activity>
+        <activity
+            android:name="edu.neu.mhealth.qutang.towerairdrop.activities.GameScoreActivity"
+            android:label="@string/title_activity_game_score" >
+        </activity>
+        <activity
+            android:name="edu.neu.mhealth.qutang.towerairdrop.activities.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

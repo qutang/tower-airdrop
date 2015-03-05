@@ -1,0 +1,24 @@
+# view AndroidManifest.xml #generated:17
+-keep class edu.neu.mhealth.qutang.towerairdrop.GameApplication { <init>(...); }
+
+# view res/layout/activity_game.xml #generated:9
+-keep class edu.neu.mhealth.qutang.towerairdrop.GameView { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class edu.neu.mhealth.qutang.towerairdrop.activities.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class edu.neu.mhealth.qutang.towerairdrop.activities.AcknowledgeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class edu.neu.mhealth.qutang.towerairdrop.activities.GameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class edu.neu.mhealth.qutang.towerairdrop.activities.GameEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class edu.neu.mhealth.qutang.towerairdrop.activities.GameScoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class edu.neu.mhealth.qutang.towerairdrop.activities.GameSettingActivity { <init>(...); }
+

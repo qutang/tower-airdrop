@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <gradient
+        android:angle="90"
+        android:startColor="#52D3FB"
+        android:endColor="#4ED2FB"
+        android:type="linear"/>
+
+</shape><!-- From: file:/Qu/Projects/TowerAirdrop/TowerAirdropApplication/src/main/res/drawable/gradient_day_sky.xml -->
