@@ -33,5 +33,5 @@ proguard/
 *.pdf
 
 ANGLE/
-
+build/
 */.settings/
