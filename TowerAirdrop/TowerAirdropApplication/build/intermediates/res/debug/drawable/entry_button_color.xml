@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:state_focused="true" android:state_pressed="false" android:color="#aaa" />
-    <item android:state_focused="true" android:state_pressed="true" android:color="#999" />
-    <item android:state_focused="false" android:state_pressed="true" android:color="#999" />
-    <item android:color="#f60" />
-</selector>
-<!-- From: file:/Qu/Projects/TowerAirdrop/TowerAirdropApplication/src/main/res/drawable/entry_button_color.xml -->
