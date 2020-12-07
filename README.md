@@ -1,20 +1,14 @@
-**TOWER AIRDROP** is an Android experimental **exergame** for kids to motivate and keep them sweater. It incorporates simple motion primitives such as _moving/shaking_, _tilting_ and _touch gestures_ into different game tasks: triggering parachute, avoiding obstacles, and stacking a tower. The Game paces are designed to fit the **focus attention** of kids. Game tasks are designed to be varying throughout the play to prevent kids getting tired of or losing focus when repeating the movement for a long time. <!--more-->
+# TOWER AIRDROP
+
+Tower airdrop is an Android experimental **exergame** for kids to motivate and keep them sweater. It incorporates simple motion primitives such as _moving/shaking_, _tilting_ and _touch gestures_ into different game tasks: triggering parachute, avoiding obstacles, and stacking a tower. The Game paces are designed to fit the **focus attention** of kids. Game tasks are designed to be varying throughout the play to prevent kids getting tired of or losing focus when repeating the movement for a long time. <!--more-->
 
 Currently I'm interested about expanding this project to collect data from players (especially from kids), analyze to see their feedback about game pace, and use the results to improve game pace design: designing an **Ecological Momentary Assessment** (EMA) based scheme for pop up dialogs and also optimize the difficulty and level up mechanism.
 
 ## Downloads
 
-### Google Play
-
-- [latest](https://play.google.com/store/apps/details?id=edu.neu.mhealth.qutang.towerairdrop)
-
 ### APK package download
 
 - [v1.0](https://bitbucket.org/qutang/towerairdrop/downloads/TowerAirdrop-v1.0.apk)
-
-## Source code
-
-[Bitbucket repository](https://bitbucket.org/qutang/towerairdrop/overview)
 
 ## Licenses of used images
 
